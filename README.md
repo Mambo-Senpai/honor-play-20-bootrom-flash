@@ -1,7 +1,7 @@
-# honor-play-20-bootrom-flash-kit
+# 荣耀畅玩20 BROM 刷机工具
 
 #### 介绍
-荣耀畅玩20 (KOZ-AL00) BROM 刷机包：FDL1/FDL2 引导链、spd_dump 刷机、部分启动分区恢复。
+荣耀畅玩20 (KOZ-AL00) BROM 刷机工具：FDL1/FDL2 引导链、spd_dump 刷机、部分启动分区恢复。
 
 #### 使用说明
 
