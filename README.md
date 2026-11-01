@@ -12,4 +12,5 @@
 3.  再 spd_dump --wait 300 exec_addr 0x3ee8 fdl spl-unlock.bin 0x5500 → 进系统（orange 软解锁）
 4.  关机 → 自动进下载模式 → 使用spd_dump --wait 300 exec_addr 0x3ee8 fdl spl-unlock.bin 0x5500 开机（之后每次开机重复第 3 步）
 5.  需要 root 可以，修补 ramdisk 分区(不是 boot)，用 spd_dump --wait 300 fdl fdl1-dl.bin 0x5500 fdl fdl2-sign.bin 0x9efffe00 exec r ramdisk reset 提取 ramdisk.bin。
+
 需要用到的分区在 utilizes 文件夹里，刷入改版可用orig（原版文件）恢复
